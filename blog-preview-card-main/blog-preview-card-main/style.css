@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    font-family: Figtree;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    padding: 25px 25px;
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+    border: 1px solid hsl(0, 0%, 7%);
+    margin: 20px 20px;
+}
+
+.banner-img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-details {
+    margin: 8px 0;
+}
+.card-category {
+    color: hsl(0, 0%, 7%);
+    font-weight: 700;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: hsl(47, 88%, 63%);
+    width: 100px;
+    padding: 8px 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+.card-publish {
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(0, 0%, 7%);
+}
+.card-title {
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    transition: color 0.15s;
+    display: inline-block;
+}
+.card-title:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.card-info {
+    margin: 2px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: hsl(0, 0%, 42%);
+}
+
+.card-author-sec {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.card-author-img {
+    width: 40px;
+    height: 40px;
+}
+
+.card-author-name {
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+
+.attribution { font-size: 11px; text-align: center; margin-top: 10px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
