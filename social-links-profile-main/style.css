@@ -1,6 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    margin: 0;
+    height: 150vh;
+    background-color: hsl(0, 0%, 8%);
+    font-family: Inter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-container {
+    max-width: 350px;
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 20px;
+    margin: 15px;
+    border-radius: 10px;
+   
+}
+
+.social-dp-img {
+    width: 90px;
+    border-radius: 50%;
+}
+.social-dp {
+    margin-bottom: 10px;
+}
+
+.social-profile-info {
+    margin: 10px 0;
+    text-align: center;
+}
+.social-name {
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    font-weight: 700;
+    margin: 2px 0;
+}
+.social-address {
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.social-quote {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.social-links {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.social-link-item {
+    text-align: center;
+    margin: 0;
+    padding: 15px 100px;
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 8px;
+    white-space: nowrap;
+    transition: background-color 0.15s,
+    color 0.15s;
+}
+
+.social-link-item:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+
+}
+
+
+
+
+
+
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
-
 
 
