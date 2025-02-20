@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    height: 150vh;
+    height: 100vh;
     background-color: hsl(0, 0%, 8%);
     font-family: Inter;
     display: flex;
@@ -17,7 +17,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 35px 20px;
+    padding: 35px 45px;
     margin: 15px;
     border-radius: 10px;
    
@@ -39,7 +39,7 @@ body {
     color: hsl(0, 0%, 100%);
     font-size: 25px;
     font-weight: 700;
-    margin: 2px 0;
+    margin: 5px 0;
 }
 .social-address {
     color: hsl(75, 94%, 57%);
@@ -58,10 +58,11 @@ body {
 .social-links {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 15px;
 }
 
 .social-link-item {
+    border: none;
     text-align: center;
     margin: 0;
     padding: 15px 100px;
@@ -75,17 +76,10 @@ body {
     color 0.15s;
 }
 
-.social-link-item:hover {
+.social-link-item:hover, .social-link-item:focus {
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 12%);
-
 }
-
-
-
-
-
-
 
 
 .attribution { font-size: 11px; text-align: center; }
