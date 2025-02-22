@@ -3,8 +3,9 @@
 
 body {
     margin: 0;
+    padding: 10% 0;
     background-color: hsl(30, 54%, 90%);
-    height: 250vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,15 +18,16 @@ h1, h2 {
 }
 
 h1 {
+    margin: 15px 0;
     font-size: 250%;
 }
 h2 {
     color: hsl(14, 45%, 36%);
-    margin-top: 30px;
-    font-size: 200%;
+    margin: 20px 0 0px 0;
+    font-size: 180%;
 }
 
-p, li, caption { 
+p, caption { 
     font-family: Outfit;
     font-size: 16px;
     font-weight: 400;
@@ -33,13 +35,21 @@ p, li, caption {
     line-height: 25px;
 }
 
-h3 {
-    text-indent: 20px;
+ul li {
     font-family: Outfit;
-    font-weight: 600;
-    color: hsl(332, 51%, 32%);
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    line-height: 15px; 
+    padding: 8px 20px; 
 }
-li {
+
+ol li {
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    line-height: 25px; 
     padding: 8px 20px;
 }
 
@@ -55,7 +65,7 @@ li {
 
 .rec-banner {
     padding: 50px 50px 0 50px;
-
+    margin-bottom: 25px;
     max-width: 100%;
 }
 
@@ -64,9 +74,25 @@ li {
     border-radius: 15px;
 }
 
-.rec-prep-sec {
-    margin: 30px 20px;
+.rec-title-sec {
+    margin-bottom: 25px;
 }
+
+.rec-prep-sec {
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsl(330, 100%, 98%);
+}
+
+.rec-prep-time {
+    margin-left: 15px;
+    font-family: Outfit;
+    font-size: 21px;
+    font-weight: 700;
+    color: hsl(332, 51%, 32%);
+}
+
 
 .rec-instruction-sec {
     border-top-style: solid;
@@ -74,11 +100,15 @@ li {
     border-color: hsl(30, 54%, 90%);
 }
 
+ol, ul.rec-ingredients-list {
+    padding-left: 25px;
+}
 
 ol.rec-instruction-list li::marker {
     color: hsl(14, 45%, 36%);
     font-weight: 700;
 }
+
 
 .rec-nutrition-sec {
     border-top-style: solid;
@@ -93,14 +123,14 @@ table {
 }
 caption {
     text-align: left;
-    margin-bottom: 15px;
+    margin: 15px 0;
 }
 td {
-    padding: 20px 0;
+    padding: 12px 0;
     border-bottom: solid;
     border-width: 1px;
     border-color: hsl(32, 22%, 85%);
-    font-size: 18px;
+    font-size: 17px;
     text-indent: 30px;
     color: hsl(30, 10%, 34%);
 }
@@ -112,6 +142,7 @@ td {
 @media screen and (max-width: 600px) {
     body {
         height: auto;
+        padding: 0;
     }
     .rec-details {
         padding: 0px 20px;
